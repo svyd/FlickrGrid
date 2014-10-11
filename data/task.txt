@@ -1,0 +1,15 @@
+Task: Create Android application to display image feed from remote source.
+
+Requirements:
+- Display list of images in a scrollable GridView
+- Display image title provided by feed on top of each image
+- Download image list from online source (for example https://www.flickr.com/services/api/explore/flickr.photos.getRecent)
+- Download each image in background, update UI when image is ready
+- UI must scroll smoothly
+
+Nice to have:
+- Cancel download requests when image is no longer needed (i.e. user scrolls away from it)
+- Implement parallel download limit while keeping application responsible
+- Implement page-based list retrieval (download next page when reaching end of list)
+- Cache downloaded images on disk
+- Apply blur to image segment under image title
